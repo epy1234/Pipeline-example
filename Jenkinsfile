@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'hello'
+                bat 'C:/Users/epy12/jenkins-course/j02/example.py'
             }
         }
     }
