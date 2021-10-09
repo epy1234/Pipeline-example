@@ -15,7 +15,8 @@ pipeline {
     }
     post {
         always {
-            emailext body: 'The exercise work fine!', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: 'Jenkins works with Epy gmail'
+            emailext body: 'The exercise work fine!', recipientProviders: [[$class: 'DevelopersRecipientProvider'],
+            [$class: 'RequesterRecipientProvider']], subject: 'Jenkins works with Epy gmail'
         }
     }
 }
