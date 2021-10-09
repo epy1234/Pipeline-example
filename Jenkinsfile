@@ -1,10 +1,10 @@
 pipeline {
     agent any
-  
+
     stages {
-        stage('build') {
+        stage('Hello') {
             steps {
-                bat 'C:/Users/epy12/jenkins-course/j02/example.py'
+                echo 'Hello World'
             }
         }
     }
