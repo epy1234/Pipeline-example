@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Run Python') {
             steps {
-                sh "c:/py example.py"
+                sh "c:\py example.py"
             }
         }
     }
